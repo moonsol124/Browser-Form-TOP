@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+}
+
+body {
+}
+
+.template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.content {
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 10fr;
+    padding: 2rem;
+    border: 1px solid rgb(166, 166, 255);
+    border-radius: 1rem;
+}
+
+.title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.input-container {
+    border-radius: 16px;
+    padding: 1rem;
+    display: grid;
+    gap: 5px;
+}
+
+.error-msg {
+    background-color: rgb(255, 191, 191);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+.input-container > label {
+
+}
+
+.input-container > input, select {
+    width: 100%;
+}
